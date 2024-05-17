@@ -286,11 +286,11 @@ function firstmiss(arr){
   // let reverse = reverseNumber(num)
   //  console.log(reverse)
   
-  // for (var i = 1; i <= 3; i++) {
-  //     setTimeout(() => {
-  //       console.log(i);
-  //     }, i * 1000);
-  // }
+  for (var i = 1; i <= 3; i++) {
+      setTimeout(() => {
+        console.log(i);
+      }, i * 1000);
+  }
    
    
    
