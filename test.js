@@ -260,15 +260,15 @@ function firstmiss(arr){
   // Ques 3. Given an integer x, return x with its digits reversed.
   let num = -103
 
-  //   function reverseNumber(num){
-  //       let sign  = Math.sign(num)
-  //       let absolute = Math.abs(num)
-  //       let reversestring = absolute.toString().split('').reverse().join('')
-  //       let reverseNum = parseInt(reversestring)*sign
-  //       return reverseNum
-  //   }
-  //   let reverseNumbe = reverseNumber(num)
-  //   console.log(reverseNumbe)
+    function reverseNumber(num){
+        let sign  = Math.sign(num)
+        let absolute = Math.abs(num)
+        let reversestring = absolute.toString().split('').reverse().join('')
+        let reverseNum = parseInt(reversestring)*sign
+        return reverseNum
+    }
+    let reverseNumbe = reverseNumber(num)
+    console.log(reverseNumbe)
   
   // function reverseNumber(num){
   //     let reverseNumbers = 0;
