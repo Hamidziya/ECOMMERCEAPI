@@ -237,24 +237,24 @@ function firstmiss(arr){
   
   //function isSort()
   
-//   let arr = [7, 6,5, 12, 1]
-//   [5,6 ,7, 1,12]
+  let arre = [7, 6,5, 12, 1]
+  //[5,6 ,7, 1,12]
   
-//   function bubbleSort(arr){
-//       const n = arr.length;
-//       for(let i =0 ; i<n-1; i++){
-//           for(let j= 0; j<n-i-1; j++){
-//               if(arr[j]>arr[j+1]){
-//                   let temp = arr[j]
-//                   arr[j] = arr[j+1]
-//                   arr[j+1] = temp
-//               }
-//           }
-//       }
-//       return arr
-//   }
-//   let sortarray = bubbleSort(arr)
-//   console.log(sortarray)
+  function bubbleSort(arre){
+      const n = arr.length;
+      for(let i =0 ; i<n-1; i++){
+          for(let j= 0; j<n-i-1; j++){
+              if(arr[j]>arr[j+1]){
+                  let temp = arr[j]
+                  arr[j] = arr[j+1]
+                  arr[j+1] = temp
+              }
+          }
+      }
+      return arr
+  }
+  let sortarray = bubbleSort(arre)
+  console.log(sortarray)
   
   //->comparing 5 an 3 since 
   // Ques 3. Given an integer x, return x with its digits reversed.
